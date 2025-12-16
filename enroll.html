@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LearnOnline | Enroll</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>LearnOnline</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="enroll.html">Enroll</a></li>
+    </ul>
+  </nav>
+
+  <section class="enroll">
+  <div class="enroll-card">
+    <h2>Enroll Now</h2>
+    <p class="subtitle">Start your learning journey today 🚀</p>
+
+    <form onsubmit="submitForm(event)">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label>Selected Course</label>
+        <input type="text" id="course" readonly>
+      </div>
+
+      <button type="submit" class="enroll-btn">Confirm Enrollment</button>
+    </form>
+
+    <p id="message" class="success-msg"></p>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
