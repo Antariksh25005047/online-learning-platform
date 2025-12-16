@@ -1,0 +1,72 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LearnOnline | Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>LearnOnline</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="enroll.html">Enroll</a></li>
+    </ul>
+  </nav>
+
+  <section class="courses">
+  <h2 class="section-title">Explore Our Popular Courses</h2>
+  <div class="course-grid">
+
+    <div class="course-card">
+      <div class="course-img">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Web Development">
+        <span class="badge">Best Seller</span>
+      </div>
+      <div class="course-content">
+        <h3>Web Development</h3>
+        <p>Master HTML, CSS, JavaScript & modern frameworks.</p>
+        <div class="course-footer">
+          <span class="price">1499</span>
+          <button onclick="enroll('Web Development')">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <div class="course-img">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" alt="Python Programming">
+      </div>
+      <div class="course-content">
+        <h3>Python Programming</h3>
+        <p>From basics to advanced Python development.</p>
+        <div class="course-footer">
+          <span class="price">1399</span>
+          <button onclick="enroll('Python Programming')">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <div class="course-img">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Data Science">
+        <span class="badge new">New</span>
+      </div>
+      <div class="course-content">
+        <h3>Data Science</h3>
+        <p>Learn data analysis, visualization & ML concepts.</p>
+        <div class="course-footer">
+          <span class="price">999</span>
+          <button onclick="enroll('Data Science')">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
